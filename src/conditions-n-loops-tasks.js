@@ -327,7 +327,7 @@ function sortByAsc(arr) {
   const res = arr;
   let min;
   let index;
-  for (let i = 0; i < res.length; i += 1) {
+  for (let j = 0; j < res.length; j += 1) {
     min = res[j];
     index = 0;
     for (let i = j + 1; i < res.length; i += 1) {
